@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import PropTypes from 'react-types'
 
-export default function TopHeader(props) {
+export default function Header(props) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">{props.title}</a>
@@ -28,12 +29,12 @@ export default function TopHeader(props) {
   </nav>
   )
 }
-
-TopHeader.defaultProps = {
-  title: "title here text",
-searchBar: true
+Header.defaultProps = {
+  title: " ",
+searchBar: false
 }  
-// TopHeader.propTypes{
-//   title: PropTypes.string,
-//   searchBar: PropTypes.bool.isRequired
-// }
+ 
+Header.propTypes = {
+  title: PropTypes.string,
+  searchBar: PropTypes.bool.isRequired
+}
