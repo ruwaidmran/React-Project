@@ -5,18 +5,18 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="Nav-bar">
 
         <li><Link to="/">Website</Link>
                 </li>
         <ul>
-        
-            <li>
-                <Link to="/Services">Services</Link>
+            <li>    
+                 <Link to="/Services">Services</Link>
                 </li>
             <li>
                 <Link to="/Contact">Contact</Link>
                 </li> 
+                <li> <Link to="/About">Contact</Link></li>
         </ul>
 
     </nav>
