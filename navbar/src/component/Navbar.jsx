@@ -1,4 +1,4 @@
-
+/*eslint-disable*/
 import React, {useState} from 'react'
 import { Link } from "react-router-dom"
 import { NavLink } from 'react-router-dom'
@@ -11,7 +11,9 @@ return (
 <nav className="Nav-bar">
 
 <li><Link to="/">Website</Link></li>
-<div className="menu">
+<div className="menu" onClick={()=>{
+  setMenuOpen(!menuOpen);
+}}>
   <span></span>
   <span></span>
   <span></span>

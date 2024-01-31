@@ -1,11 +1,12 @@
 
 import './App.css';
+import { Routes,Route } from 'react-router-dom';
 import Navbar from './component/Navbar';
 import Home from './component/pages/Home';
 import Services from './component/pages/Services';
 import About from './component/pages/About';
 import Contact from './component/pages/Contact';
-import { Routes,Route } from 'react-router-dom';
+
 
 function App() {
   return (
