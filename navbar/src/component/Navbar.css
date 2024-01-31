@@ -21,13 +21,6 @@ padding: 0.2rem;
 margin: 0.2rem;
 color: #fff;
 }
-nav.Nav-bar  li a{
-display: block;
-text-decoration: none;
-padding: 0.2rem;
-margin: 0.2rem;
-color: #fff;
-}
 
 .active{
     background-color: #1d4ea8;
