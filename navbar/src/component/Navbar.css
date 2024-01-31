@@ -2,6 +2,10 @@ nav.Nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0f172a;
+    list-style: none;
+    color: #fff;
+    text-decoration: none; 
 }
 nav.Nav-bar ul {
     display: flex;
@@ -15,4 +19,61 @@ display: block;
 text-decoration: none;
 padding: 0.2rem;
 margin: 0.2rem;
+color: #fff;
+}
+nav.Nav-bar  li a{
+display: block;
+text-decoration: none;
+padding: 0.2rem;
+margin: 0.2rem;
+color: #fff;
+}
+
+.active{
+    background-color: #1d4ea8;
+}
+
+.nav .menu{
+    display: none;
+    position: absolute;
+    top:0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border: 0.2rem;
+}
+@media (max-width: 767px) {
+    .nav .menu{
+        display: flex;
+      
+    }
+    .nav{
+        flex-direction: column;
+        align-items: start;
+    }
+    .nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        margin-bottom: 0.25rem;
+    }
+    .nav ul.open{
+        display: flex;
+    }
+    .nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .nav ul li a{ 
+      margin: 0.25rem   0.25rem;
+    }
 }
