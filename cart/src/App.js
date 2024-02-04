@@ -5,8 +5,6 @@ import Todos from './component/Todos';
 import ToDoItems from "./component/ToDoItems";
 import Footer from './component/Footer';
 
-
-
 function App() {
   return (
   <> 

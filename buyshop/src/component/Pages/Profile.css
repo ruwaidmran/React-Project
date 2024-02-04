@@ -1,0 +1,27 @@
+.bg-Profile{
+    background-color: #f1f1f1;
+  
+}
+
+.expense_items {
+    /* padding: 0 0 10rem 0; */
+    height: 200px;
+}
+.expense__items__description{
+    
+    background-color: rgb(19, 19, 36);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding:10px;
+    color: #fff;
+}
+.expense__amount{
+    background-color: rgb(8, 25, 25);
+    padding:10px;
+    color:#fff;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}

@@ -1,14 +1,18 @@
+/* header{
+    background-color:#0f172a ;
+} */
 nav{
     display: flex;
     justify-content: space-between;
     background-color:#0f172a ;
 }
 
+nav.nav ul {
+    display: flex;
+}
 nav ul li {
-
     list-style: none;
-        padding: 1.25rem;
-      
+    padding: 1.25rem;
 }
 nav ul li a{
     color: #fff;
@@ -46,17 +50,14 @@ nav .menu span{
 @media (max-width: 767px){
     nav .menu{
         display: flex;
-        
-
     }
-    nav.nav.nav-bar li {
+    nav.nav li {
         padding-top: 10px;
         padding-bottom: 20px;
     }
     nav{
         flex-direction: column;
         align-items: start;
-    
     }
     nav ul{
         flex-direction: column;
@@ -67,7 +68,7 @@ nav .menu span{
         width: 100%;
         text-align: center;
     }
-    nav ul.open li{
+    nav ul.open{
         display: flex;
     }
 }
